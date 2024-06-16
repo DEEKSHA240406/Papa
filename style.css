@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Roboto',sans-serif;
+}
+body{
+    background-color:black;
+
+}
+.heart img{
+    padding: 400px;
+   
+    animation: scaleEaseInOut 3s ease-in-out infinite;
+    width: 300px;
+    height: 300px;
+    cursor: pointer;
+}
+
+
+.text{
+    color: darkorange;
+    
+}
+.text p{
+    justify-content: center;
+    padding: 400px;
+} 
+.text img{
+    width: 100px;
+    height: 100px;
+    padding: 100px;
+    cursor: pointer;
+}
+.texts p{
+    color: yellow;
+    justify-content: center;
+    padding: 100px;
+}
+
+@keyframes scaleEaseInOut {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.5);
+    }
+}
